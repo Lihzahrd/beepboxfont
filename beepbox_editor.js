@@ -764,7 +764,7 @@ var beepbox;
 				:root {
 					-webkit-text-stroke-width: 0.5px;
 					--page-margin: #3E1212;
-					--editor-background: darkred;
+					--editor-background: maroon;
 					--hover-preview: white;
 					--playhead: rgba(0,0,0,0.5);
 					--primary-text: white;
