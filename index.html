@@ -20,13 +20,16 @@
 	<link rel="manifest" href="/manifest.webmanifest" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" rel="stylesheet" media="none" onload="if (this.media != 'all') this.media='all';" /> <!-- this is a trick to load CSS asynchronously. -->
 	<style type="text/css">
-	    div {
-            font-family: pixel;
-        }
+		@font-face {
+                        font-family: "pixelFont";
+                        src: url("https://lihzahrd.github.io/beepboxfont/minecraftregular-bmg3-webfont.woff") format("woff"),
+                        url("https://lihzahrd.github.io/beepboxfont/minecraftregular-bmg3-webfont.otf") format("opentype"),
+                }
 		html {
 			background: var(--page-margin, black);
 			overflow-x: hidden;
 			font-size: large;
+			font-family: 'pixelFont', sans-serif;
 			line-height: 1.3;
 			color: var(--primary-text, white);
 		}
